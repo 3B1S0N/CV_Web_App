@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body style="background-image: url(https://c4.wallpaperflare.com/wallpaper/138/79/756/colorful-digital-art-artwork-wallpaper-preview.jpg);">
+    <div class="container">
+        <div>
+            <h2 style="text-align: center; background-color: rgb(69, 208, 250); color: azure;">ASHESI CV FORM</h2>  
+        </div>
+        <form action="/CV.html" method="get" id="nameform">
+
+            <label for="fname">First name:</label>
+            <input type="text" id="First_Name" name="First_Name" placeholder="John">
+
+            <label for="Middle_Name1">Middle Name:</label>
+            <input type="text" id="Middle_Name" name="Middle_Name" placeholder="Jamerson">
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="Last_Name" name="Last_Name" placeholder="Smith">
+
+            <label for="Email_1">Email:</label>
+            <input type="text" id="Email" name="Email" placeholder="email@example.com">
+
+            <label for="Number_1">Number:</label>
+            <input type="text" id="Number" name="Number" placeholder="022244245">
+
+            <label for="Address_1">Address:</label>
+            <input type="text" id="Address" name="Address" placeholder="Hse No. 5, Mango Lane">
+
+            <label for="Gender_1"> Gender: </label>
+            <select name="Gender">
+                <option value="Male"> Male </option>
+                <option value="Female"> Female </option>
+            </select>
+        </form>
+        <button type="submit" form="nameform" value="Submit">Submit</button>
+    </div>
+    <script src="./Main.js"></script>
+</body>
+</html>
