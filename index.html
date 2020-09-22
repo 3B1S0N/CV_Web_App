@@ -11,7 +11,7 @@
         <div>
             <h2 style="text-align: center; background-color: rgb(69, 208, 250); color: azure;">ASHESI CV FORM</h2>  
         </div>
-        <form id="MyForm" action="/CV.html"  method="POST" >
+        <form id="thisform" method="POST" >
 
             <label for="First_Name1">First Name:</label>
             <input type="text" id="First_Name" name="First_Name" placeholder="John"> 
@@ -37,12 +37,12 @@
                 <option value="Female"> Female </option>
             </select>
             
-            <button type="submit" value="submit">Submit</button>
+            <button type="submit" value="submit" onclick="window.location.href='./CV.html'" >Submit</button>
             
         </form>
     </div>
 
-    <script src="./Main.js"></script>   
+    <script src="Sheet1.js"></script>  
 </body>
 
 </html> 
